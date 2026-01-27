@@ -25,3 +25,48 @@ body {
 .icon {
   font-size: 4rem;
 }
+
+/* ==========================
+Grid Layout for emoji cards
+============================= */
+/* Creating 2-column layout for emoji cards */
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* =========================
+Flexbox inside each emoji card
+============================ */
+/* Flexbox for each emoji card */
+.emoji {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================
+Emoji Icon Alignment
+============================= */
+/* Centers the emoji and adds spacing */
+.icon {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* ===========================
+Text Spacing
+============================== */
+.emoji p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+/* ===========================
+Button Alignment
+============================== */
+.emoji a {
+  margin-top: auto;
+  text-align: center;
+}
