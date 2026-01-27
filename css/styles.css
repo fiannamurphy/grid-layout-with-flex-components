@@ -70,3 +70,19 @@ Button Alignment
   margin-top: auto;
   text-align: center;
 }
+
+.icon {
+  order: 1;
+}
+.emoji h2 {
+  order: 2;
+  margin: 0.5rem;
+}
+
+.emoji p {
+  order: 3;
+}
+
+.emoji a {
+  order: 4;
+}
